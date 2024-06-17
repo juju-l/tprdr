@@ -28,7 +28,7 @@
 
 static void die_usage(void)
 {
-	fputs("Usage: tcprdr [ -4 | -6 ] [ -f ] [ -l ] [ -t [ -T ]] [ -L listen address ] localport host [ remoteport ]\n", stderr);
+	fputs("Usage: tprdr [ -4 | -6 ] [ -f ] [ -l ] [ -t [ -T ]] [ -L listen address ] localport host [ remoteport ]\n", stderr);
 	exit(1);
 }
 

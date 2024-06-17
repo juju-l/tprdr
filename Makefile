@@ -1,9 +1,9 @@
-all: tcprdr
+all: tprdr
 CC=gcc
 CFLAGS=-W -Wall -pedantic -std=gnu99
 
-tcprdr: tcprdr.c
-	$(CC) $(CFLAGS) tcprdr.c -o tcprdr
+tprdr: tprdr.c
+	$(CC) $(CFLAGS) tprdr.c -o tprdr
 
 clean:
-	rm -f tcprdr
+	rm -f tprdr
